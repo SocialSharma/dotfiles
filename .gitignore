@@ -1,0 +1,4 @@
+# ignore all files except .bash_profile and .gitignore
+/*
+!/.bash_profile
+!/.gitignore
