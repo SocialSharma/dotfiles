@@ -1,4 +1,5 @@
-# ignore all files except .bash_profile and .gitignore
+# ignore all files except specified and .gitignore
 /*
 !/.bash_profile
+!/.vimrc
 !/.gitignore
