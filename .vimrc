@@ -1,3 +1,9 @@
+" enable pathogen runtime path manipulation
+execute pathogen#infect()
+
+" detect fileypes
+filetype plugin indent on
+
 " enable syntax highlighting
 syntax enable
 
@@ -22,6 +28,6 @@ set showmatch
 " enable all Python syntax highlighting features
 let python_highlight_all=1
 
-" enable tab autocomplete
+" enable tab autocomplete in vim commanline 
 set wildmode=longest,list,full
 set wildmenu

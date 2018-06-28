@@ -16,3 +16,6 @@ export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
 # alias for having a detatched working director for bash profile version control
 alias dot='git --git-dir ~/.dotfiles/.git --work-tree=$HOME'
+
+# change version of Java
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
