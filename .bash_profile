@@ -25,3 +25,6 @@ alias fastai="conda activate fastai"
 
 # alias for jupyter notebook
 alias nb="juypter notebook"
+
+# access work profile
+. ~/.work_profile
