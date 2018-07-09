@@ -27,4 +27,11 @@ alias fastai="conda activate fastai"
 alias nb="juypter notebook"
 
 # access work profile
-. ~/.work_profile
+if [ -f ~/.work_aliases ]; then
+    . ~/.work_aliases
+fi
+
+# some ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
