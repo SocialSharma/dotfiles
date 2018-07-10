@@ -25,9 +25,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# alias for avaamo environment
-alias avaamo="conda activate avaamo"
-
 # alias for fastai conda environment
 alias fastai="conda activate fastai"
 
