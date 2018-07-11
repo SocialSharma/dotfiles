@@ -44,3 +44,6 @@ alias c="clear"
 alias ..="cd ../"
 alias ...="cd ../../"
 alias ....="cd ../../../"
+
+# alias for exiting
+alias e="exit"
