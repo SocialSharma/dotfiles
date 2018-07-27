@@ -47,3 +47,6 @@ alias ....="cd ../../../"
 
 # alias for exiting
 alias e="exit"
+
+# alias for python
+alias py="python"
