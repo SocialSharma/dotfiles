@@ -53,3 +53,6 @@ alias e="exit"
 
 # alias for python
 alias py="python"
+
+# alias for ipython
+alias ipy="ipython"
