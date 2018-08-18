@@ -13,7 +13,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 #############
 ## Aliases ##
-#EE##########
+#############
 
 # access work profile
 if [ -f ~/.work_aliases ]; then
@@ -26,7 +26,10 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # alias for fastai conda environment
-alias fastai="conda activate fastai"
+alias fa="conda activate fastai"
+
+# alias for socialsharma conda environment
+alias ss="conda activate socialsharma"
 
 # alias for jupyter notebook
 alias nb="juypter notebook"
