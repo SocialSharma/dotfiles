@@ -28,8 +28,8 @@ alias l='ls -CF'
 # alias for fastai conda environment
 alias fa="conda activate fastai"
 
-# alias for socialsharma conda environment
-alias ss="conda activate socialsharma"
+# alias for sudosharma conda environment
+alias ss="conda activate sudosharma"
 
 # alias for jupyter notebook
 alias nb="juypter notebook"
