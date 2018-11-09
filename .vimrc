@@ -7,6 +7,10 @@ filetype plugin indent on
 " enable syntax highlighting
 syntax enable
 
+" ale lint configs
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_enter = 0
+
 " show line numbers
 set number
 

@@ -25,11 +25,8 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-# alias for fastai conda environment
-alias fa="conda activate fastai"
-
-# alias for sudosharma conda environment
-alias ss="conda activate sudosharma"
+# alias for activating conda environment
+alias ca="conda activate"
 
 # alias for jupyter notebook
 alias nb="juypter notebook"
