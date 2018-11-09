@@ -53,3 +53,6 @@ alias py="python"
 
 # alias for ipython
 alias ipy="ipython"
+
+# activate base conda
+conda activate
