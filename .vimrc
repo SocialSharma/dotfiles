@@ -1,4 +1,4 @@
-" enable pathogen runtime path manipulation
+" package management
 execute pathogen#infect()
 
 " detect fileypes
@@ -7,7 +7,7 @@ filetype plugin indent on
 " enable syntax highlighting
 syntax enable
 
-" ale lint configs
+" ale configs
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
 
@@ -35,3 +35,12 @@ let python_highlight_all=1
 " enable tab autocomplete in vim commanline 
 set wildmode=longest,list,full
 set wildmenu
+
+" set default clipboard and mappings for vim after install vim-gtk
+set clipboard=unnamedplus
+vmap <leader>y "+y
+vmap <leader>d "+d
+nmap <leader>p "+p
+nmap <leader>P "+P
+vmap <leader>p "+p
+vmap <leader>P "+p
