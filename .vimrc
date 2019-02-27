@@ -37,6 +37,12 @@ let g:ale_warn_about_training_whitespace=0
 " Enables unsaved movement from buffer to buffer 
 set hidden
 
+" Split window configs
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " Python-specific configs 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
