@@ -26,7 +26,8 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # alias for activating conda environment
-alias ca="conda activate"
+alias coa="conda activate"
+alias cod="conda deactivate"
 
 # alias for jupyter notebook
 alias nb="juypter notebook"
