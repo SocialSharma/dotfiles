@@ -16,8 +16,8 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 #############
 
 # access work profile
-if [ -f ~/.work_aliases ]; then
-    . ~/.work_aliases
+if [ -f ~/.avaamo_bash ]; then
+    . ~/.avaamo_bash
 fi
 
 # some ls aliases
